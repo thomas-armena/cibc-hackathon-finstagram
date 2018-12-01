@@ -1,18 +1,64 @@
+/* --------------App */
+.App {
+  overflow: hidden;
+}
+
+/* --------------App Content */
+
+.app-content {
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  height: 100%;
+  transition: left 0.5s;
+  -webkit-transition: left 0.5s;
+}
+
+.sbActive {
+  left: 80%;
+}
+
+.sbInactive {
+  left: 0%;
+}
+
+/* --------------Sidebar */
+
+.sidebar {
+  position: absolute;
+  width: 80%;
+  height:100%;
+  background-color: #AF0B1C;
+  transition: left 0.5s;
+  -webkit-transition: left 0.5s;
+
+}
+
+.show {
+  left: 0%;
+}
+
+.hide {
+  left: -80%;
+}
+
+
+
+
 
 /* --------------MENU BAR */
 .menubar {
-  position: fixed;
+  position: absolute;
   width: 100%;
   color: white;
   height: 60px;
   background-color: #AF0B1C;
-  box-shadow: 0px 2px 8px #999999;
+  box-shadow: 0px 0px 10px black;
   z-index: 2;
 }
 
 .menubar-menu {
   float: left;
-  margin: 15px;
 }
 
 .menubar-title {
@@ -20,25 +66,26 @@
   text-align: center;
   margin-top: 15px;
   font-size: 24px;
-  width: 100%;
+  left: 50%;
+  transform: translate(-50%,0%);
 }
 
-.menubar-content-right {
 
-}
 
-.menubar i {
+.menubar-menu i {
   font-size: 35px;
+  margin: 15px;
+
 }
 
 /* --------------NAV BAR */
 .navbar {
-  position: fixed;
+  position: absolute;
   width: 100%;
   color: white;
   height: 60px;
   background-color: #AF0B1C;
-  box-shadow: 0px -2px 8px #999999;
+  box-shadow: 0px 0px 10px black;
   bottom: 0;
   display: flex;
   flex-direction: row;
@@ -65,4 +112,6 @@
   bottom: 60px;
   width: 100%;
   overflow-y: scroll;
+  box-shadow: 0px 0px 10px black;
+
 }
