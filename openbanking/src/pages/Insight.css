@@ -1,3 +1,6 @@
+.Insight-page {
+  background-color: white;
+}
 
 .each-box {
   padding-left: 5%;
@@ -8,7 +11,8 @@
 }
 
 .material-icons {
-  margin-top: 5%;
+  margin-top: 3%;
   padding-right: 5%;
   float: left;
+  font-size: 40px;
 }

@@ -6,7 +6,7 @@ export default class Insight extends Component {
 
   render(){
     return(
-      <div>
+      <div classname="Insight-page">
     <LineChart
       xType={'text'}
       axes
@@ -34,25 +34,25 @@ export default class Insight extends Component {
     <hr/>
 
     <div className = "each-box">
-    <i className="material-icons md-48">local_offer</i>
+    <i className="material-icons">local_offer</i>
     <p>This month you have spent $500</p>
     </div>
     <hr/>
 
     <div className = "each-box">
-    <i className="material-icons md-48">attach_money</i>
+    <i className="material-icons" style={{fontSize:'40px'}}>attach_money</i>
     <p>This month you have earned $350</p>
     </div>
     <hr/>
 
     <div className = "each-box">
-    <i className="material-icons md-48">account_balance_wallet</i>
+    <i className="material-icons">account_balance_wallet</i>
     <p>Great job! You've saved $250 this month!</p>
     </div>
     <hr/>
 
     <div className = "each-box">
-    <i className="material-icons md-48">announcement</i>
+    <i className="material-icons">announcement</i>
     <p>Save $100.00 next month by going to starbucks once a week</p>
     </div>
     <hr/>

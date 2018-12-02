@@ -16,12 +16,42 @@ export default class Pool extends Component {
         </div>
 
         <ul class="flex-container">
-          <li class="flex-item">1</li>
-          <li class="flex-item">2</li>
-          <li class="flex-item">3</li>
-          <li class="flex-item">4</li>
-          <li class="flex-item">5</li>
-          <li class="flex-item">6</li>
+          <li class="flex-item">
+            Cancun
+            <div>
+              <img src={'./100.png'} className="App-logo"/>
+            </div>
+          </li>
+          <li class="flex-item">
+            Car
+            <div>
+              <img src={'./100_without.png'} className="App-logo-without"/>
+            </div>
+          </li>
+          <li class="flex-item">
+            College Fund
+            <div>
+              <img src={'./1_without.png'} className="App-logo-without"/>
+            </div>
+          </li>
+          <li class="flex-item">
+            Mom's Birthday
+            <div>
+              <img src={'./100_without.png'} className="App-logo-without"/>
+            </div>
+          </li>
+          <li class="flex-item">
+            Condo Fund
+            <div>
+              <img src={'./1_without.png'} className="App-logo-without"/>
+            </div>
+          </li>
+          <li class="flex-item">
+            Dad's Birthday
+            <div>
+              <img src={'./100.png'} className="App-logo"/>
+            </div>
+          </li>
         </ul>
       </div>
     )
