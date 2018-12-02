@@ -63,7 +63,9 @@ class App extends Component {
 				<div className={contentClass}>
 					{/*Menu Bar */}
 					<div className="menubar">
-						<div className="menubar-title">finstagram</div>
+						<div className="menubar-title">finstagram<img src="finstagram.png" style={{
+							marginLeft:'15px'
+						}} height={30} width={30} /></div>
 						<div className="menubar-menu"><i onClick={this.handleMenuClick} className="material-icons">menu</i></div>
 					</div>
 

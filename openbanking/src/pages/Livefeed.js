@@ -78,14 +78,18 @@ export default class Livefeed extends Component {
       <div>
         <div className="lf-item">
           <Suggestion
-            icon="mood_bad"
+            iconclass="fas fa-angry"
+            icon=""
+            iconcolor="red"
             title="Checking Account"
             message="I am only left with $470 this month! What were you thinking?"
           />
         </div>
         <div className="lf-item" onClick={this.handleHide1}>
           <Suggestion
-            icon="mood"
+            iconclass="fas fa-grin"
+            icon=""
+            iconcolor="#FBC703"
             title="Aventura Visa"
             message="Aventura Visa is feeling happy. Bought $181 of clothing!"
           />
@@ -105,7 +109,9 @@ export default class Livefeed extends Component {
 
         <div className="lf-item">
           <Suggestion
+            iconclass="material-icons"
             icon="monetization_on"
+            iconcolor="green"
             title="Tips"
             message="Christmas is coming! Do you know how much you spent last year?"
           />
@@ -113,7 +119,9 @@ export default class Livefeed extends Component {
 
         <div className="lf-item">
           <Suggestion
+            iconclass="material-icons"
             icon="monetization_on"
+            iconcolor="green"
             title="Tips"
             message="You will have to work 10 hours extra to make up for your credit card bill."
           />
@@ -121,9 +129,11 @@ export default class Livefeed extends Component {
 
         <div className="lf-item" onClick={this.handleHide2}>
           <Suggestion
-            icon="mood_bad"
+            iconclass="fas fa-frown-open"
+            icon=""
+            iconcolor="purple"
             title="Aventura Visa"
-            message=" Aventura Visa is feeling anxious about your spending. Next time try waiting for Black Friday for tech purchases!"
+            message=" Aventura Visa is feeling anxious because you spent $165! Next time try waiting for Black Friday for tech purchases!"
           />
           <div className={this.state.exp2}>
             <i style={{display: "block", textAlign: 'center', width: '100%'}} className="material-icons">expand_more</i>
@@ -146,7 +156,9 @@ export default class Livefeed extends Component {
 
         <div className="lf-item">
           <Suggestion
-            icon="mood"
+            iconclass="fas fa-grin"
+            icon=""
+            iconcolor="#FBC703"
             title="Savings Account"
             message="Is excited by the growth."
           />
@@ -154,7 +166,9 @@ export default class Livefeed extends Component {
 
         <div className="lf-item">
           <Suggestion
+            iconclass="material-icons"
             icon="people"
+            iconcolor="blue"
             title="Bruce Banner"
             message="Bruce Banner has reached his Cancun Trip goals! You have currently saved 80%."
           />
