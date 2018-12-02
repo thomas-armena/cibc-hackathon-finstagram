@@ -142,3 +142,16 @@
   font-size: 40px;
   float: right;
 }
+
+/* --------------SUGGESTION */
+
+.suggestion {
+  display:flex;
+  flex-direction: row;
+}
+
+.suggestion-left {
+  background-color: blue;
+  height: 50px;
+  width: 50px;
+}

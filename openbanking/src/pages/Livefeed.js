@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import TransactionFeed from '../components/TransactionFeed';
+import Suggestion from '../components/Suggestion';
 import axios from 'axios';
 import '../App.css';
 
@@ -44,6 +45,14 @@ export default class Livefeed extends Component {
         </div>
 
         <div className="lf-item">
+          <Suggestion
+            icon="mood"
+            title="title"
+            message="This is a test suggestion. test test test test test test test wqdjjjjjjjjj jjjjjjjjjjjjjjjjj jjjjjjjjjjj jjjjjjj jjjj jjjjjjjjj jjjjjjjjjj jjjjjjjj"
+          />
+        </div>
+
+        <div className="lf-item">
           <TransactionFeed transaction={this.state.transactionData[2]} />
         </div>
 
@@ -54,6 +63,15 @@ export default class Livefeed extends Component {
         <div className="lf-item">
           <TransactionFeed transaction={this.state.transactionData[4]} />
         </div>
+
+        <div className="lf-item">
+          <Suggestion
+            icon="mood_bad"
+            title="another title"
+            message="This is a test suggestion"
+          />
+        </div>
+
 
         <div className="lf-item">
           <TransactionFeed transaction={this.state.transactionData[5]} />
