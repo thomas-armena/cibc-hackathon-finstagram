@@ -32,29 +32,28 @@ export default class Insight extends Component {
     />
     <hr/>
 
-    <div className = "first-box">
-    <i class="material-icons md-48">local_offer</i>
-    This month you have spent $500
+    <div className = "each-box">
+    <i className="material-icons md-48">local_offer</i>
+    <p>This month you have spent $500</p>
     </div>
     <hr/>
 
-    <div>
-    <i class="material-icons md-48">attach_money</i>
-    This month you have earned $350
+    <div className = "each-box">
+    <i className="material-icons md-48">attach_money</i>
+    <p>This month you have earned $350</p>
     </div>
     <hr/>
 
-    <div>
-    <i class="material-icons md-48">attach_money</i>
-    Great job! You've saved $250 this month!
+    <div className = "each-box">
+    <i className="material-icons md-48">attach_money</i>
+    <p>Great job! You've saved $250 this month!</p>
     </div>
     <hr/>
 
-    <div>
-    <i class="material-icons md-48">attach_money</i>
-    Save $100.00 next month by going to starbucks once a week
+    <div className = "each-box">
+    <i className="material-icons md-48">attach_money</i>
+    <p>Save $100.00 next month by going to starbucks once a week</p>
     </div>
-    <hr/>
 
     </div>
 
