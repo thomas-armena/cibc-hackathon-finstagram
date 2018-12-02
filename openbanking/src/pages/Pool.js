@@ -20,6 +20,8 @@ export default class Pool extends Component {
           <li class="flex-item">2</li>
           <li class="flex-item">3</li>
           <li class="flex-item">4</li>
+          <li class="flex-item">5</li>
+          <li class="flex-item">6</li>
         </ul>
       </div>
     )
