@@ -1,0 +1,48 @@
+.Pool-Div{
+  height: 100px;
+}
+
+.Pool-Title{
+  color: red;
+  text-align: center;
+}
+
+.Achieving {
+  text-align: center;
+  font-size: 20px;
+}
+
+.flex-container {
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  flex-wrap: wrap;
+  width: 325px;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background: white;
+  padding: 5px;
+  width: 125px;
+  height: 125px;
+  margin-top: 10px;
+
+  line-height: 75px;
+  color: black;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  border-radius: 25px;
+  box-shadow: 0px 0px 10px #999999;
+}
