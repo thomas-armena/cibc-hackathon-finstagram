@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-//import menuBar from 'components/menuBar';
 import LiveFeed from './pages/Livefeed';
 import Insight from './pages/Insight';
 import Pool from './pages/Pool';
@@ -18,13 +17,6 @@ class App extends Component {
 		this.handlePoolClick = this.handlePoolClick.bind(this);
 		this.handleMenuClick = this.handleMenuClick.bind(this);
 
-	}
-
-	componentDidMount(){
-		axios.defaults.headers.common['Ocp-Apim-Subscription-Key'] = '5396d28023f147439c63ef73571705c6'
-		axios.get("https://api.azureminilab.com/customers/1/accounts")
-			.then(response => { console.log(response) })
-			.catch(error => {console.log(error) })
 	}
 
 	handleHomeClick(){
