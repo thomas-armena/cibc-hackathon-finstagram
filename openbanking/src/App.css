@@ -155,3 +155,11 @@
   height: 50px;
   width: 50px;
 }
+
+.hide-info {
+  display: None;
+}
+
+.show-info {
+  display: block;
+}

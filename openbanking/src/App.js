@@ -47,7 +47,17 @@ class App extends Component {
 			<div className="App">
 				{/*Sidebar*/}
 				<div className={sidebarClass}>
-					test
+					<div style={{
+						margin:'20px',
+						color:'white',
+					}}>
+
+						<div style={{fontSize:'24px'}}>Your Account</div> <br/><br/>
+						<div style={{fontSize:'18px'}}>CIBC</div> <br/><br/>
+						<div style={{fontSize:'18px'}}>TD Bank</div> <br/><br/>
+						<div style={{fontSize:'18px'}}>Scotia Bank</div> <br/><br/>
+						<div style={{fontSize:'18px'}}>Link New Account</div> <br/><br/>
+					</div>
 				</div>
 
 				<div className={contentClass}>
